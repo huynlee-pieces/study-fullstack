@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài tập 1 - Day 2</title>
+  <link rel="stylesheet" href="./asset/style.css">
+  <style>
+    .container {
+      display: block;
+      max-width: 1220px;
+      margin: 0 auto;
+    }
+
+    .score-sheet {
+      margin-block: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    #tieu-de {
+      color: #0d6ac8;
+      text-align: center;
+    }
+
+    table {
+      width: 600px;
+      border: 1px solid #000;
+    }
+
+    th {
+      background-color: lightyellow;
+      padding: 10px;
+      border: 1px solid #000;
+    }
+
+    td {
+      padding: 8px;
+      border: 1px solid #000;
+      text-align: center;
+    }
+
+    .diem-cao {
+      background-color: lightgreen;
+    }
+  </style>
+</head>
+<body>
+  <section class="score-sheet container">
+    <h1 id="tieu-de">Bảng điểm lớp HTML01</h1>
+    <table>
+      <tr>
+        <th>STT</th>
+        <th>Họ và tên</th>
+        <th>HTML</th>
+        <th>CSS</th>
+        <th>Điểm trung bình</th>
+      </tr>
+      <tr class="diem-cao">
+        <td>1</td>
+        <td>Nguyễn Văn An</td>
+        <td>8</td>
+        <td>9</td>
+        <td>8.5</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Trần Thị Bình</td>
+        <td>7</td>
+        <td>6</td>
+        <td>6.5</td>
+      </tr>
+      <tr class="diem-cao">
+        <td>3</td>
+        <td>Lê Văn Cường</td>
+        <td>9</td>
+        <td>9</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Phạm Thị Dung</td>
+        <td>5</td>
+        <td>6</td>
+        <td>6</td>
+      </tr>
+      <tr class="diem-cao">
+        <td>5</td>
+        <td>Hoàng Văn Em</td>
+        <td>8</td>
+        <td>8</td>
+        <td>8</td>
+      </tr>
+    </table>
+  </section>
+</body>
+</html>
