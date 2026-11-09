@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #202020;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #0d6ac8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  display: block;
+  max-width: calc(100% - 8rem);
+  margin: 0 auto;
+}
+
+section {
+  padding-block: 30px;
+}
+
+.notification {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: rgb(158, 158, 158);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notification .count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  color: white;
+  background: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
