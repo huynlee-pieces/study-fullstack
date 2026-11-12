@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #0d6ac8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.relative {
+  position: relative;
+}
+
+.link-hidden {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+input[type="email"] {
+  border-color: #0d6ac8;
+}
+
+input[type="password"] {
+  background-color: #f6ff8e;
+}
+
+input[required] {
+  border: 2px solid #ff4d4f;
+}
+
+form p a[href^="https://"] {
+  color: green;
+}
+
+form p a[href^="http://"] {
+  color: red;
+  text-decoration: line-through;
+}
+
+form p a[href$=".pdf"] {
+  font-weight: bold;
+  color: orange;
+}
+
+form p a[href*="gmail"] {
+  font-style: italic;;
+}
+
+form button[type="submit"] {
+  background-color: #0d6ac8;
+  color: #fff;
+}
+
+form button[type="reset"] {
+  background-color: gray;
+}

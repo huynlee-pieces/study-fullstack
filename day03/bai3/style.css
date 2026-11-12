@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #202020;
+}
+
+h1 {
+  font-size: 2em;
+  width: 100vw;
+  height: 20vh;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.card {
+  width: 50%;
+  max-width: 400px;
+  padding: 1.5em;
+}
+
+.price {
+  font-size: 1.25rem;
+}
+
+.price span {
+  font-size: 1.5em;
+}
+
+.card {
+  color: blue;
+}
+
+.card a {
+  color: inherit;
+}
+
+.card h3 {
+  color: initial;
+}
+
+ul {
+  list-style: initial;
+}
