@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #202020;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-wrapper {
+  margin: 40px auto;
+  max-width: max-content;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+  transition-property: transform, box-shadow;
+}
+
+.card .link-hidden {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 1;
+}
+
+.card .featured-image {
+  position: relative;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+.card .featured-image img:nth-child(n + 2) {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.card .featured-image img:nth-child(2) {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  transition-property: transform, opacity;
+}
+
+.card .card-information {
+  padding: 10px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .featured-image img:nth-child(2) {
+  transform: scale(1);
+  opacity: 1;
+}
