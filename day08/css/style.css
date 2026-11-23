@@ -300,6 +300,22 @@ ul {
     border-radius: 16px;
     padding: 8px;
   }
+
+  .section-footer {
+    background-color: #1A1A1A;
+    border-radius: 12px;
+    padding: 20px 30px;
+    margin-top: 10px;
+  }
+
+  .section-footer .button-with-icon .icon-wrapper {
+    padding: 13px;
+  }
+
+  .section-footer .button-with-icon .icon-wrapper {
+    background-color: #0F0F0F;
+    transform: rotate(135deg);
+  }
 }
 
 @media screen and (min-width: 750px) {
